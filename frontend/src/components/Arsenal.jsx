@@ -2,7 +2,11 @@ import React from 'react'
 
 function Arsenal() {
   return (
-    <div>Arsenal</div>
+    <div>
+      <h1 className='text-white'>
+        Arsenal
+        </h1>
+      </div>
   )
 }
 
