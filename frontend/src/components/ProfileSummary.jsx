@@ -1,4 +1,5 @@
 import React from "react";
+import { ArrowDownToLine } from "lucide-react";
 
 function ProfileSummary() {
   return (
@@ -90,8 +91,15 @@ function ProfileSummary() {
                 <img src="gmail.svg" alt="Gmail" className="w-6 h-6" />
               </a>
             </div>
-            <div className="pt-2">
-              <button className="bg-white">download CV</button>
+            <div className="pt-2 bg-white flex flex-row p-2 rounded-lg gap-2">
+              <ArrowDownToLine strokeWidth={1.5}/>
+              
+              <a 
+              href="cv.docx"
+              download
+              className="text-sm font-medium">
+                Download CV
+              </a>
             </div>
           </div>
         </div>
