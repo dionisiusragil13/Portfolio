@@ -18,7 +18,7 @@ function ProfileSummary() {
 
           {/* Introduction */}
           <p className="text-white leading-relaxed">
-            I'm a developer passionate about building software that is
+            I'm a self-taught developer passionate about building software that is
             intuitive, user-centered, and reliable. I enjoy creating solutions
             that are performant and maintainable, with a strong focus on clean
             code and long-term usability. I also value working in agile teams,
@@ -28,21 +28,20 @@ function ProfileSummary() {
 
           {/* Education & Experience */}
           <p className="text-white leading-relaxed">
-            My journey began with a Bachelor's degree in Media Design
-            Informatics, where I combined my interests in technology and design.
-            Along the way, I gained hands-on experience as a working student in
-            software development, contributing to real-world projects in agile
-            environments. Now, I'm pursuing a Master's in Software Engineering
-            in Vienna, where I continue to deepen my expertise and focus on
-            building complex, scalable systems.
+            Instead of traditional corporate experience, I have honed my skills
+            through rigorous personal projects and academic coursework. From
+            designing database structures to crafting responsive website with MERN stack,
+            I treat every project as an opportunity to simulate professional
+            workflows and deliver high-quality code.
           </p>
 
           {/* Work Experience */}
           <p className="text-white leading-relaxed">
-            In the past, I've had the opportunity to develop software across
-            diverse settings — from projects for a large logistics corporation
-            and an advertising agency to personal experiments and academic work
-            at university.
+            I am currently seeking an internship or entry-level opportunity where
+            I can apply my technical skills and contribute to meaningful projects.
+            I am eager to bring my enthusiasm and dedication to a dynamic team.
+            If you’re interested in collaborating or have a position in mind,
+            I’d love to connect!
           </p>
 
           {/* Social Links */}
