@@ -17,7 +17,7 @@ function Projects() {
       preview:
         "SpaceWar.png",
       description:
-        "A modern financial services platform built with Next.js, offering loan application services and financial management tools.",
+        "A shooting 2D game with space theme.",
       tech: ["Figma", "C#", "Unity"],
       link: "https://github.com/yourusername/askfinancee",
     },
@@ -26,7 +26,7 @@ function Projects() {
       name: "BioFace (Team Project)",
       preview: "BioFace.png",
       description:
-        "Project management tool with real-time collaboration features, kanban boards, and team productivity analytics.",
+        "Mobile application with Deep Learning-based facial analysis that uses TensorFlow to detect skin conditions and provide personalized health solutions.",
       tech: ["Colab", "Tensorflow", "Figma", "Python"],
       link: "https://github.com/Project-BioFace",
     },
