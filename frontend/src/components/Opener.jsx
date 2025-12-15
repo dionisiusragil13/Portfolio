@@ -9,11 +9,11 @@ function Opener() {
         distance={0.4}
         className="absolute inset-0 -translate-y-32 scale-110"
       /> */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-white">
-        <h1 className="text-[80px] font-bold font-[alfa-slab-one-regular]">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full">
+        <h1 className="text-[80px] font-bold font-[alfa-slab-one-regular]  text-white">
           An Insight Into My Journey
         </h1>
-        <span className="-mt-5 text-center">Constantly evolving self-taught developer, passionate about building impactful applications,
+        <span className="-mt-5 text-center text-gray-400">Constantly evolving self-taught developer, passionate about building impactful applications,
             <br/> and always ready to embrace emerging technologies.</span>
       </div>
     </div>

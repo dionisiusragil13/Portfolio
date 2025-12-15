@@ -5,6 +5,7 @@ import ProfileSummary from './components/ProfileSummary'
 import Expertise from './components/Expertise'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
+import Outro from './components/Outro'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Arsenal/>
       <Experience/>
       <Projects/>
+      <Outro/>
     </div>
   )
 }
