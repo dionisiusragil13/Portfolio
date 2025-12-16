@@ -33,6 +33,15 @@ function Projects() {
       tech: ["Colab", "Tensorflow", "Figma", "Python"],
       link: "https://github.com/Project-BioFace",
     },
+    {
+      id: 4,
+      name: "Chat-App (Personal Project)",
+      preview: "ChatApp.png",
+      description:
+        "Full-stack real-time chat application developed using MERN stack with Socket.IO integration for bidirectional communication. Implements JWT-based authentication, secure password hashing with bcrypt, MongoDB for data persistence, and RESTful API architecture. Features include user authentication, real-time messaging, online status indicators, and responsive design.",
+      tech: ["Node.js", "Express.js", "React.js", "Tailwind CSS","react-router","zustand","JavaScripts","MongoDB","cloudinary"],
+      link: "https://github.com/Project-BioFace",
+    },
   ];
   return (
     <div className="flex flex-col justify-center items-center min-h-screen pb-5">

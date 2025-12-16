@@ -8,7 +8,7 @@ function ProfileSummary() {
         <div data-aos="fade-up" className="space-y-6">
           {/* Header */}
           <div>
-            <h1  className="text-4xl font-bold text-white mb-2">
+            <h1 className="text-4xl font-bold text-white mb-2">
               Ragil Gigih Utomo
             </h1>
             <p className="text-xl text-gray-400">
@@ -70,7 +70,7 @@ function ProfileSummary() {
                 <img src="linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/ragildinho_?igsh=Yzh5c3pjaWJ4bW0y"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="opacity-70 hover:opacity-100 transition-opacity"
@@ -90,10 +90,17 @@ function ProfileSummary() {
                 <img src="gmail.svg" alt="Gmail" className="w-6 h-6" />
               </a>
             </div>
-            <div className="pt-2 bg-white flex flex-row p-2 rounded-lg gap-2">
-              <ArrowDownToLine strokeWidth={1.5} />
+            <div className="pt-2 bg-white flex flex-row p-2 rounded-lg gap-2 hover:bg-gray-50 hover:shadow-md transition-all duration-300 cursor-pointer group">
+              <ArrowDownToLine
+                strokeWidth={1.5}
+                className="group-hover:translate-y-0.5 transition-transform duration-300"
+              />
 
-              <a href="cv.docx" download className="text-sm font-medium">
+              <a
+                href="cv-RagilGigihUtomo.pdf"
+                download
+                className="text-sm font-medium"
+              >
                 Download CV
               </a>
             </div>
