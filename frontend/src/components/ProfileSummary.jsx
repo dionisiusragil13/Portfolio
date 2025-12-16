@@ -5,10 +5,10 @@ function ProfileSummary() {
   return (
     <div className=" min-h-screen flex items-center justify-center p-8 mb-5">
       <div className="max-w-4xl w-full">
-        <div className="space-y-6">
+        <div data-aos="fade-up" className="space-y-6">
           {/* Header */}
           <div>
-            <h1 className="text-4xl font-bold text-white mb-2">
+            <h1  className="text-4xl font-bold text-white mb-2">
               Ragil Gigih Utomo
             </h1>
             <p className="text-xl text-gray-400">
@@ -18,30 +18,30 @@ function ProfileSummary() {
 
           {/* Introduction */}
           <p className="text-white leading-relaxed">
-            I'm a self-taught developer passionate about building software that is
-            intuitive, user-centered, and reliable. I enjoy creating solutions
-            that are performant and maintainable, with a strong focus on clean
-            code and long-term usability. I also value working in agile teams,
-            where collaboration and continuous learning are key to developing
-            software that truly serves its users.
+            I'm a self-taught developer passionate about building software that
+            is intuitive, user-centered, and reliable. I enjoy creating
+            solutions that are performant and maintainable, with a strong focus
+            on clean code and long-term usability. I also value working in agile
+            teams, where collaboration and continuous learning are key to
+            developing software that truly serves its users.
           </p>
 
           {/* Education & Experience */}
           <p className="text-white leading-relaxed">
             Instead of traditional corporate experience, I have honed my skills
             through rigorous personal projects and academic coursework. From
-            designing database structures to crafting responsive website with MERN stack,
-            I treat every project as an opportunity to simulate professional
-            workflows and deliver high-quality code.
+            designing database structures to crafting responsive website with
+            MERN stack, I treat every project as an opportunity to simulate
+            professional workflows and deliver high-quality code.
           </p>
 
           {/* Work Experience */}
           <p className="text-white leading-relaxed">
-            I am currently seeking an internship or entry-level opportunity where
-            I can apply my technical skills and contribute to meaningful projects.
-            I am eager to bring my enthusiasm and dedication to a dynamic team.
-            If you’re interested in collaborating or have a position in mind,
-            I’d love to connect!
+            I am currently seeking an internship or entry-level opportunity
+            where I can apply my technical skills and contribute to meaningful
+            projects. I am eager to bring my enthusiasm and dedication to a
+            dynamic team. If you’re interested in collaborating or have a
+            position in mind, I’d love to connect!
           </p>
 
           {/* Social Links */}
@@ -91,12 +91,9 @@ function ProfileSummary() {
               </a>
             </div>
             <div className="pt-2 bg-white flex flex-row p-2 rounded-lg gap-2">
-              <ArrowDownToLine strokeWidth={1.5}/>
-              
-              <a 
-              href="cv.docx"
-              download
-              className="text-sm font-medium">
+              <ArrowDownToLine strokeWidth={1.5} />
+
+              <a href="cv.docx" download className="text-sm font-medium">
                 Download CV
               </a>
             </div>

@@ -1,4 +1,7 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Projects() {
   const projectList = [
@@ -42,6 +45,7 @@ function Projects() {
             <div
               key={project.id}
               className="w-100 bg-zinc-900 rounded-lg overflow-hidden border border-zinc-800"
+               data-aos="fade-up" 
             >
               {/* Image Container with overflow hidden */}
               <div className="aspect-video overflow-hidden">

@@ -91,14 +91,14 @@ function Arsenal() {
         "unity_dark.svg",
     },
   ];
-
   return (
+    
     <div className="min-h-screen flex flex-col items-center justify-center p-8">
       <h1 className="text-white text-[30px] font-sans font-bold">Skills</h1>
       <div className="w-25 h-1 bg-blue-500"></div>
       <p className="text-gray-400 mb-15">Always Willing To Learn New Skill</p>
       <div className="max-w-4xl">
-        <div className="flex flex-wrap justify-center gap-3">
+        <div  className="flex flex-wrap justify-center gap-3">
           {skills.map((skill, index) => (
             <SkillBox key={index} name={skill.name} iconUrl={skill.iconUrl} />
           ))}
@@ -110,7 +110,7 @@ function Arsenal() {
 
 const SkillBox = ({ name, iconUrl }) => {
   return (
-    <div className="bg-zinc-900 border border-zinc-800 rounded-xl px-5 py-2 hover:border-zinc-600 transition-all duration-300 cursor-pointer hover:scale-110">
+    <div data-aos="fade-up" className="bg-zinc-900 border border-zinc-800 rounded-xl px-5 py-2 hover:border-zinc-600 transition-all duration-300 cursor-pointer hover:scale-110">
       <div className="flex flex-row items-center gap-3">
         <img src={iconUrl} alt={name} className="w-6 h-6 object-contain" />
         <span className="text-zinc-200 text-sm font-medium whitespace-nowrap">
