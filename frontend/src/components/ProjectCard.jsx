@@ -26,9 +26,8 @@ const ProjectCard = () => {
         "Building model deep learning for final project",
         "Colaborate with other student accross university and learning path for final project",
       ],
-      technologies: ["Figma","Python","TensorFlow"],
+      technologies: ["Figma", "Python", "TensorFlow"],
     },
-
   ];
 
   const toggleExpand = (index) => {
@@ -44,6 +43,7 @@ const ProjectCard = () => {
           <div
             key={project.id}
             className="bg-white/5 rounded-2xl border border-slate-700 shadow-2xl overflow-hidden"
+            data-aos="fade-up" 
           >
             {/* Header Section */}
             <div className="p-6">
@@ -123,9 +123,7 @@ const ProjectCard = () => {
                           key={achIndex}
                           className="flex items-start gap-3 text-slate-300"
                         >
-                          <span className="text-blue-500 shrink-0">
-                            ●
-                          </span>
+                          <span className="text-blue-500 shrink-0">●</span>
                           <span>{achievement}</span>
                         </li>
                       ))}

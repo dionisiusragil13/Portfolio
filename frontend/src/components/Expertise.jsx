@@ -2,7 +2,7 @@ import React from "react";
 import { AppWindow, Smartphone, Brain, Gamepad2 } from "lucide-react";
 
 const ExpertiseCard = ({ icon: Icon, title, description, iconColor }) => (
-  <div className="bg-linear-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-xl p-6 hover:border-blue-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20">
+  <div data-aos="fade-up"  className="bg-linear-to-br from-gray-800/50 to-gray-900/50 backdrop-blur-sm border border-gray-700/50 rounded-xl p-6 hover:border-blue-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/20">
     <div className="flex items-start gap-4">
       <div
         className={`w-12 h-12 rounded-lg bg-linear-to-br ${iconColor} flex items-center justify-center shrink-0 shadow-lg mt-2`}
@@ -62,7 +62,7 @@ export default function Expertise() {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div  className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {expertiseData.map((item, index) => (
             <ExpertiseCard
               key={index}
