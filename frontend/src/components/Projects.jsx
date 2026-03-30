@@ -17,12 +17,10 @@ function Projects() {
     {
       id: 2,
       name: "Space War (Personal Project)",
-      preview:
-        "SpaceWar.png",
-      description:
-        "A shooting 2D game with space theme.",
+      preview: "SpaceWar.png",
+      description: "A shooting 2D game with space theme.",
       tech: ["Figma", "C#", "Unity"],
-      link: "https://github.com/yourusername/askfinancee",
+      link: "https://github.com/dionisiusragil13/Space-war",
     },
     {
       id: 3,
@@ -39,8 +37,18 @@ function Projects() {
       preview: "ChatApp.png",
       description:
         "Full-stack real-time chat application developed using MERN stack with Socket.IO integration for bidirectional communication. Implements JWT-based authentication, secure password hashing with bcrypt, MongoDB for data persistence, and RESTful API architecture. Features include user authentication, real-time messaging, online status indicators, and responsive design.",
-      tech: ["Node.js", "Express.js", "React.js", "Tailwind CSS","react-router","zustand","JavaScripts","MongoDB","cloudinary"],
-      link: "https://github.com/Project-BioFace",
+      tech: [
+        "Node.js",
+        "Express.js",
+        "React.js",
+        "Tailwind CSS",
+        "react-router",
+        "zustand",
+        "JavaScripts",
+        "MongoDB",
+        "cloudinary",
+      ],
+      link: "https://github.com/dionisiusragil13/chat-app",
     },
   ];
   return (
@@ -54,7 +62,7 @@ function Projects() {
             <div
               key={project.id}
               className="w-100 bg-zinc-900 rounded-lg overflow-hidden border border-zinc-800"
-               data-aos="fade-up" 
+              data-aos="fade-up"
             >
               {/* Image Container with overflow hidden */}
               <div className="aspect-video overflow-hidden">
