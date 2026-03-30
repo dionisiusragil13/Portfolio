@@ -22,7 +22,7 @@ function Projects() {
       description:
         "A shooting 2D game with space theme.",
       tech: ["Figma", "C#", "Unity"],
-      link: "https://github.com/yourusername/askfinancee",
+      link: "https://github.com/dionisiusragil13/Space-war",
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ function Projects() {
       description:
         "Full-stack real-time chat application developed using MERN stack with Socket.IO integration for bidirectional communication. Implements JWT-based authentication, secure password hashing with bcrypt, MongoDB for data persistence, and RESTful API architecture. Features include user authentication, real-time messaging, online status indicators, and responsive design.",
       tech: ["Node.js", "Express.js", "React.js", "Tailwind CSS","react-router","zustand","JavaScripts","MongoDB","cloudinary"],
-      link: "https://github.com/Project-BioFace",
+      link: "https://github.com/dionisiusragil13/chat-app",
     },
   ];
   return (
